@@ -1,0 +1,6 @@
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= link_to list.name, list %></li>
+    <%= link_to "Improve Your Ruby Skills", "/ruby-book" %>
+  <% end %>
+</ul>
